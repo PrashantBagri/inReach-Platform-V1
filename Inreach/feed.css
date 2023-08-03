@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    /* background-color: #e4e4f6;s */
+    text-align: center;
+}
+
+.header{
+    box-shadow: 0 0 20px 0;
+}
+.logo{
+    display: flex;
+    margin: auto;
+}
+
+  .profile-pic{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 0px 50%;
+    border-radius: 50%;
+}
+.card1{
+  display: inline-block;
+  padding: 25px;
+  line-height: 20px;
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  border-radius: 20px ;
+  box-shadow: 2px 5px 5px 0 rgb(136, 136, 137);
+  width: fit-content;
+  margin: 50px;
+}
+.name{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.links{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.Visit{
+  background-color:rgb(132, 139, 245) ;
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  color: aliceblue;
+  width: 60px;
+  
+}
+
+.grid{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  
+}
+.feed{
+  font-size: 75px;
+  margin-top: 30px;
+}
+
+.myaccount{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: 0px 50%;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    background-color:rgb(132, 139, 245) ;
+    margin-left: 500px;
+
+    /* padding: 50px; */
+}
+.feed{
+  display: inline;
+  /* border: 2px solid red; */
+}
+.one{
+  display: flex;
+  /* margin:100px; */
+  align-items: center;
+  margin-left: 100px;
+}
+
+
